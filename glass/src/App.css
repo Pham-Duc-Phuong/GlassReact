@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.App{
+  background-image: url(../public/images/glassesImage/background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-body-tertiary{
+  background-color: transparent !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right{
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left{
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.glass-left{
+  position: absolute;
+  width: 165px;
+  left: 75px;
+  top: 90px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.glass-right{
+  position: absolute;
+  width: 165px;
+  left: 75px;
+  top: 90px;
+}
+.desc{
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  background-color: rgba(255, 128, 25, 0.5);
+  padding: 10px 14px;
+}
+.desc p{
+  margin-bottom: 0;
 }
