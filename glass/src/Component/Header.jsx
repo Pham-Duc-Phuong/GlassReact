@@ -39,7 +39,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-            <h4 className='text-center bg py-3 text-white' style={{textTransform:'uppercase'}}>try glasses app online</h4>
+            <h4 className='text-center bg py-3 text-white' style={{textTransform:'uppercase' , fontWeight:800}}>try glasses app online</h4>
         </div>
 
     )

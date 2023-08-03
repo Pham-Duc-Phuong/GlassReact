@@ -6,7 +6,7 @@
   background-size: cover;
 }
 .bg-body-tertiary{
-  background-color: transparent !important;
+  background-color: rgba(255, 255, 255) !important;
 }
 
 .bg{
@@ -32,9 +32,9 @@
 }
 .desc{
   position: absolute;
-  left: 10px;
+  left: 12px;
   bottom: 0px;
-  background-color: rgba(255, 128, 25, 0.5);
+  background-color: rgba(255, 128, 25, 0.4);
   padding: 10px 14px;
 }
 .desc p{
